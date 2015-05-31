@@ -23,7 +23,8 @@
     <EditText style="@style/tvFullParent"
         android:id="@+id/etNome"
         android:inputType="textCapSentences"
-        android:singleLine="true"/>
+        android:singleLine="true"
+        android:maxLength="20"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -33,7 +34,7 @@
 
     <EditText style="@style/tvFullParent"
         android:id="@+id/etDescricao"
-        android:inputType="textCapSentences"
+        android:inputType="textCapSentences|textMultiLine"
         android:maxLines="5"
         android:maxLength="255"/>
 
@@ -44,7 +45,7 @@
         android:layout_marginTop="10dp"/>
 
     <Button
-        android:id="@+id/etDueDate"
+        android:id="@+id/btnDueDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -72,7 +73,7 @@
         android:visibility="gone"/>
 
     <Button
-        android:id="@+id/etActualDate"
+        android:id="@+id/btnDataRealizada"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
