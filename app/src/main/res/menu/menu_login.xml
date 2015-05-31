@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.correiam.checkmeta.LoginActivity">
+    <item
+        android:id="@+id/action_esqueci_minha_senha"
+        android:title="@string/action_esqueci_minha_senha"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

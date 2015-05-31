@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/fundo"
+    tools:context="br.com.correiam.checkmeta.HomeActivity">
+
+    <com.shamanland.fab.FloatingActionButton
+        android:id="@+id/nova_meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_edit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:floatingActionButtonColor="@color/myFabColor"
+        />
+
+    <TextView
+        android:id="@+id/tvBoasVindasUsuario"
+        android:text="@string/texto_boas_vindas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvTextoBoasVindas"
+        android:text="@string/texto_boas_vindas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_below="@id/tvBoasVindasUsuario"/>
+
+    <ImageView
+        android:id="@+id/myimg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_action_foursquare"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tvTextoBoasVindas"/>
+</RelativeLayout>

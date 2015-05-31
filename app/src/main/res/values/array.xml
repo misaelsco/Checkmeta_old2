@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_meta">
+        <item>Pendente</item>
+        <item>Atrasada</item>
+        <item>Realizada</item>
+        <item>Despriorizada</item>
+    </string-array>
+</resources>

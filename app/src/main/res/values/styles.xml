@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- Action bar theme -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/action_bar_color</item>
+        <item name="background">@color/action_bar_color</item>
+    </style>
+
+    <style name="menu">
+        <item name="android:itemBackground">@color/action_bar_color</item>
+    </style>
+
+    <style name="tvFullParentLogin" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="tvFullParent" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="tvRowMeta" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+
+
+    <style name="ActionBarGreen">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#009900</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

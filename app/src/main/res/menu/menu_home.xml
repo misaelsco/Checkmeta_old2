@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.correiam.checkmeta.CadastroActivity">
+
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="Menu"
+        android:orderInCategory="1"
+        app:showAsAction="always" >
+        <menu>
+        <item
+            style="@style/menu"
+            android:id="@+id/action_sair"
+            android:title="@string/sair"
+            android:orderInCategory="2"
+            app:showAsAction="never" />
+        <item
+            style="@style/menu"
+            android:id="@+id/action_perfil"
+            android:title="@string/action_perfil"
+            android:orderInCategory="3"
+            app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

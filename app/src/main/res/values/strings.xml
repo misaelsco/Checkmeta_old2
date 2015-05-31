@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Checkmeta</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_perfil">Meu perfil</string>
+    <string name="action_esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="frase_cadastro">Cadastre-se no CheckMeta</string>
+    <string name="btnLogin">ENTRAR</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="facebook_app_id">868453333226038</string>
+    <string name="title_activity_home">Categorias</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="confirmacao_senha">Confirme sua senha</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="sair">Sair</string>
+    <string name="title_activity_meta">Meta</string>
+    <string name="nome_meta">Título da meta</string>
+    <string name="descricao_meta">Descrição</string>
+    <string name="data_realizada">Data concluída</string>
+    <string name="duedate_meta">Data prevista</string>
+    <string name="status_meta">Status</string>
+    <string name="boas_vindas_usuario">Bem vindo %1$s!</string>
+    <string name="texto_boas_vindas">Você ainda não possui nenhuma meta cadastrada. Para cadastrar uma meta, clique no ícone no canto inferior direito</string>
+    <string name="nome_obrigatorio">Campo Nome é obrigatório</string>
+</resources>
